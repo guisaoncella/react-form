@@ -17,7 +17,7 @@ export const Container = styled.div`
         margin: 30px 0;
     }
 
-    button {
+    button{
         background-color: #25CD89;
         color: #fff;
         font-size: 14px;
@@ -27,10 +27,18 @@ export const Container = styled.div`
         border-radius: 30px;
         cursor: pointer;
         margin-top: 30px;
+        margin-right: 50px;
 
         &:hover{
             opacity: .8;
             transition: opacity 300ms;
         }
+    }
+
+    .backButton{
+        font-size: 16px;
+        text-decoration: none;
+        padding: 20px 40px;
+        color: #b8b8d4;
     }
 `
